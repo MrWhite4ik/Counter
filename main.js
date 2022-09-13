@@ -13,7 +13,7 @@ const displayColor = () => {
     else if (counter > 0) {
       counterValue.id = "positive";
     }
-    //if number is zero it will be white
+    //if number is zero it will be coral
     else {
       counterValue.id = "display";
     }

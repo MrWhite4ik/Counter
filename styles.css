@@ -1,135 +1,106 @@
-* 
-{
-  max-width: fit-content;
-}
-
-#counterValue {
+.counterValue {
   list-style: none;
-  border: 2px solid ;
-  max-width: 300px;
+  border: 2px solid;
   background: #ffff99;
   color: coral;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-bottom: 5px;
-  border-radius: 9px;
+  border-radius: 10px;
   padding: 15px 32px;
   text-align: center;
   font-size: 50px;
   margin: 4px 2px;
-  
-
-
 }
 
-#buttons {
-  background-color:  #99ffff;
-  border-radius: 9px;
+.buttons {
+  background-color: #99ffff;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
 }
 
-
-body{
-  max-width: 500px;
-  margin: auto;
+body {
+  display: flex;
+  margin: 0;
   background-color: #99ffff;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 
-#increment{
+.increment {
   background-color: green;
   border: 2px solid double black;
-  border-radius: 9px;
+  border-radius: 15px;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  color: antiquewhite ;
+  color: antiquewhite;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-#decrement{
+.decrement {
   background-color: red;
   border: 2px solid double black;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
-  color:  antiquewhite ;
+  color: antiquewhite;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
-#reset{
+.reset {
   background-color: goldenrod;
   border: 2px solid double black;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 15px 32px;
   font-size: 16px;
   margin: 4px 2px;
-  color:  antiquewhite ;  
+  color: antiquewhite;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
- h2{
-  
-  border-radius: 9px;
-  padding: 15px 32px;
+h2 {
   text-align: center;
-  font-size: 32px;
-  margin: 4px 2px;
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }
-  
-
- #conteiner {
-  border: 2px solid double coral;
- }
-
- #negative{
+.negative {
   color: red;
   list-style: none;
-  border: 2px solid ;
-  max-width: 300px;
+  border: 5px solid;
   background: #ffff99;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  margin-bottom: 5px;
-  border-radius: 9px;
+  border-radius: 15px;
   padding: 15px 32px;
-  text-align: center;
   font-size: 50px;
   margin: 4px 2px;
- }
+  text-align: center;
+}
 
- #positive{
-  list-style: none;
-  border: 2px solid ;
-  max-width: 300px;
+.positive {
+  border: 5px solid;
   background: #ffff99;
   color: green;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-bottom: 5px;
-  border-radius: 9px;
+  border-radius: 15px;
   padding: 15px 32px;
-  text-align: center;
   font-size: 50px;
   margin: 4px 2px;
- }
-
- #display{
-  list-style: none;
-  border: 2px solid ;
-  max-width: 300px;
+  text-align: center;
+}
+.display {
+  border: 5px solid;
   background: #ffff99;
   color: coral;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   margin-bottom: 5px;
-  border-radius: 9px;
+  border-radius: 15px;
   padding: 15px 32px;
   text-align: center;
   font-size: 50px;
   margin: 4px 2px;
- }
+}
